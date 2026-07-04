@@ -115,13 +115,16 @@ In a real telecom scenario, the analysis could be improved with additional opera
 ## About the Author
 
 Didem Kaştan
+[LinkedIn](https://www.linkedin.com/in/didemkastan)
 
 Principal Specialist | Business Analysis
 
 MSc Measurement \& Data Analytics
 
 Telecom Operations • Data Analytics • Python • SQL • Machine Learning
-[LinkedIn](https://www.linkedin.com/in/didemkastan)
+
+
+
 ## License
 
 MIT
