@@ -118,6 +118,8 @@ Gerçek bir telekom senaryosunda şikayet kayıtları, arıza geçmişi, fatura 
 
 Didem Kaştan
 
+[LinkedIn](https://www.linkedin.com/in/didemkastan)
+
 Principal Specialist | Business Analysis
 
 Ölçme ve Veri Analitiği Yüksek Lisans
