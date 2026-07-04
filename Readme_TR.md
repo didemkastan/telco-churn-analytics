@@ -1,6 +1,6 @@
 # telco-churn-analytics
 
-[!\[Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/didemkastan/telco-churn-analytics/blob/main/Telco\_Churn\_Analysis.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/didemkastan/telco-churn-analytics/blob/main/Telco_Churn_Analysis.ipynb)
 
 
 
@@ -60,11 +60,11 @@ Bu çalışma aşağıdaki adımları içerir:
 
 ## Çıktılar
 
-!\[Keşifsel veri analizi](outputs/eda\_overview.png)
+![Keşifsel veri analizi](outputs/eda\_overview.png)
 
 
 
-!\[ROC eğrileri](outputs/roc\_curves.png)
+![ROC eğrileri](outputs/roc\_curves.png)
 
 
 
