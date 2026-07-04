@@ -1,6 +1,6 @@
 # telco-churn-analytics
 
-[!\[Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/didemkastan/telco-churn-analytics/blob/main/Telco\_Churn\_Analysis.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/didemkastan/telco-churn-analytics/blob/main/Telco_Churn_Analysis.ipynb)
 
 
 
@@ -62,9 +62,9 @@ This project includes:
 
 ## Outputs
 
-!\[EDA overview](outputs/eda\_overview.png)
+![EDA overview](outputs/eda\_overview.png)
 
-!\[ROC curves](outputs/roc\_curves.png)
+![ROC curves](outputs/roc\_curves.png)
 
 ## Reproduce
 
