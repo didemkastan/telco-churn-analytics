@@ -1,0 +1,3 @@
+,cv_auc_mean,cv_auc_sd,test_auc
+LogisticRegression,0.844,0.013,0.847
+GradientBoosting,0.847,0.013,0.847
