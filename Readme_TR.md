@@ -86,14 +86,14 @@ Veri seti: [IBM Telco Customer Churn](https://github.com/IBM/telco-customer-chur
 ```text
 telco-churn-analytics/
 ├── Telco\_Churn\_Analysis.ipynb
-├── run\\\_analysis.py
+├── run_analysis.py
 ├── data/
 │   └── Telco-Customer-Churn.csv
 ├── outputs/
-│   ├── eda\_overview.png
-│   ├── roc\_curves.png
-│   ├── odds\_ratios.csv
-│   └── model\_comparison.csv
+│   ├── eda_overview.png
+│   ├── roc_curves.png
+│   ├── odds_ratios.csv
+│   └── model_comparison.csv
 ├── README.md
 ├── README.tr.md
 ├── requirements.txt
