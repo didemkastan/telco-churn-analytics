@@ -1,88 +1,55 @@
-# telco-churn-analytics
-
-(https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/didemkastan/telco-churn-analytics/blob/main/Telco_Churn_Analysis.ipynb)
-
-
-
-This project analyzes customer churn using the open IBM Telco Customer Churn dataset with 7,043 customer records.
-
-The goal is to understand which customer groups have higher churn risk and to compare two baseline models for churn prediction.
-
-## Analysis Scope
-
-This project includes:
-
-* Data cleaning for `TotalCharges` and churn labels
-* Exploratory analysis of contract type, tenure and internet service
-* Logistic regression for interpretable churn drivers
-* Odds ratio analysis for risk-increasing and risk-reducing factors
-* Logistic Regression vs. Gradient Boosting model comparison
-* ROC/AUC evaluation on a held-out test set
-
-## Key Findings
-
-|Factor|Result|Interpretation|
-|-|-:|-|
-|Two-year contract|Odds ratio: 0.26|Lower churn risk compared with month-to-month contracts|
-|Tenure|Odds ratio: 0.24|Customers become more stable as tenure increases|
-|Electronic check payment|Odds ratio: 1.35|Higher-risk payment segment|
-|Online security add-on|Odds ratio: 0.66|Add-on service usage may reduce churn risk|
-
-**Model performance:** Logistic Regression and Gradient Boosting produced very similar results on the held-out test set, with both models reaching a **0.847** test AUC. Since the simpler model achieved the same level of performance, Logistic Regression can be used as the main model for interpretation.
-
-## Outputs
-
-!\[EDA overview](outputs/eda\_overview.png)
-
-!\[ROC curves](outputs/roc\_curves.png)
-
-## Reproduce
-
-You can run the notebook in Colab by clicking the badge above. The notebook includes both analyst-level and executive-level commentary.
-
-To run locally:
-
-```bash
-pip install -r requirements.txt
-python run\_analysis.py
-```
-
-Dataset: [IBM Telco Customer Churn](https://github.com/IBM/telco-customer-churn-on-icp4d)
-
-## Project Structure
-
-```text
-telco-churn-analytics/
-├── Telco\_Churn\_Analysis.ipynb
-├── run\_analysis.py
-├── data/
-│   └── Telco-Customer-Churn.csv
-├── outputs/
-│   ├── eda\_overview.png
-│   ├── roc\_curves.png
-│   ├── odds\_ratios.csv
-│   └── model\_comparison.csv
-├── README.md
-├── README.tr.md
-├── requirements.txt
-└── LICENSE
-```
-
-## Notes
-
-This is not a production churn system. It is a compact churn analysis project that shows how customer loss can be explored, modeled and interpreted with a reproducible Python workflow.
-
-In a real telecom scenario, the analysis could be improved with additional operational data such as complaint records, fault history, billing disputes, region, campaign history and customer lifetime value.
-
-## Possible Improvements
-
-* Early-tenure churn analysis
-* Risk segmentation
-* Revenue risk / ARPU analysis
-* Campaign threshold optimization
-* Uplift modeling for retention targeting
-
-## License
-
-MIT
-
+telco-churn-analytics
+![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-success)
+![Scikit-Learn](https://img.shields.io/badge/scikit--learn-ML-orange)
+![License: MIT](https://img.shields.io/badge/License-MIT-green)
+📊 Telco Customer Churn Analytics
+An end-to-end exploratory data analysis and baseline machine learning project using the IBM Telco Customer Churn dataset (7,043 customers).
+Rather than focusing only on model performance, this project emphasizes business interpretation, helping identify customer segments with higher churn risk and translating analytical findings into actionable business insights.
+🎯 Why this project?
+Customer churn is one of the most critical business challenges in the telecommunications industry. This project demonstrates a reproducible analytics workflow from raw customer data to business-oriented recommendations using Python.
+🔍 Analysis Scope
+Data cleaning (`TotalCharges`, churn labels)
+Exploratory Data Analysis (EDA)
+Contract, tenure and internet service analysis
+Logistic Regression
+Odds Ratio interpretation
+Logistic Regression vs Gradient Boosting
+ROC / AUC evaluation
+💼 Business Insights
+The analysis suggests that retention efforts should primarily focus on:
+Month-to-month customers
+Customers paying by Electronic Check
+Customers with low tenure
+These findings can support customer retention strategies and data-driven decision making.
+📊 Key Findings
+Factor	Result	Interpretation
+Two-year contract	OR: 0.26	Significantly lower churn risk
+Tenure	OR: 0.24	Longer relationships reduce churn
+Electronic check	OR: 1.35	Higher-risk payment segment
+Online security	OR: 0.66	May reduce churn risk
+Both Logistic Regression and Gradient Boosting achieved 0.847 Test AUC, making Logistic Regression the preferred model due to its interpretability.
+🧠 Skills Demonstrated
+Data Cleaning
+Exploratory Data Analysis
+Data Visualization
+Logistic Regression
+Gradient Boosting
+ROC/AUC Evaluation
+Business Interpretation
+📂 Project Structure
+See repository structure and notebook for details.
+🚀 Future Improvements
+Early-tenure churn analysis
+Revenue risk / ARPU analysis
+Customer segmentation
+Uplift modeling
+Explainable AI (SHAP)
+👩‍💻 Author
+Didem Kaştan
+Principal Specialist | Business Analysis | Telecom Operations
+MSc Measurement & Data Analytics
+Python • SQL • Machine Learning • Business Analytics
+Dataset: https://github.com/IBM/telco-customer-churn-on-icp4d
+Licensed under MIT.
